@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "xstring": "cpp",
+        "array": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "*.sli": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "system_error": "cpp"
+    }
+}
