@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\source\demo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\support\camera_controller.cpp">
+      <Filter>source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\support\main.cpp">
+      <Filter>source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\support\renderer.cpp">
+      <Filter>source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\support\tick_count.cpp">
+      <Filter>source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\ConvertUTF\source\ConvertUTF.cpp">
+      <Filter>thirdparty\ConvertUTF\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\DXUT\Optional\DXUTcamera.cpp">
+      <Filter>thirdparty\DXUT\Optional</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\demo.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\support\camera_controller.h">
+      <Filter>source\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\support\frame_throttling.h">
+      <Filter>source\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\support\renderer.h">
+      <Filter>source\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\support\tick_count.h">
+      <Filter>source\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\ConvertUTF\include\ConvertUTF.h">
+      <Filter>thirdparty\ConvertUTF\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\DLB\DLB.h">
+      <Filter>thirdparty\DLB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\DXUT\Optional\DXUTcamera.h">
+      <Filter>thirdparty\DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\DXUT\thirdparty\Reversed-Z\reversed_z.h">
+      <Filter>thirdparty\DXUT\thirdparty\Reversed-Z</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\shaders\support\full_screen_transfer_vertex.sl">
+      <Filter>shaders\support</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\shaders\support\full_screen_transfer_fragment.sl">
+      <Filter>shaders\support</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\shaders\deferred_shading_fragment.sl">
+      <Filter>shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\shaders\gbuffer_fragment.sl">
+      <Filter>shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\shaders\deferred_shading_vertex.sl">
+      <Filter>shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\shaders\gbuffer_vertex.sl">
+      <Filter>shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\shaders\skin_compute.sl">
+      <Filter>shaders</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\thirdparty\Brioche\thirdparty\Vulkan-ValidationLayers\bin\win32\x86\VkLayer_khronos_validation.json">
+      <Filter>thirdparty\Vulkan-ValidationLayers\x86</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\thirdparty\Brioche\thirdparty\Vulkan-ValidationLayers\bin\win32\x86\VkLayer_khronos_validation.dll">
+      <Filter>thirdparty\Vulkan-ValidationLayers\x86</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\thirdparty\Brioche\thirdparty\Vulkan-ValidationLayers\bin\win32\x64\VkLayer_khronos_validation.dll">
+      <Filter>thirdparty\Vulkan-ValidationLayers\x64</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\thirdparty\Brioche\thirdparty\Vulkan-ValidationLayers\bin\win32\x64\VkLayer_khronos_validation.json">
+      <Filter>thirdparty\Vulkan-ValidationLayers\x64</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shaders\support\full_screen_transfer_pipeline_layout.sli">
+      <Filter>shaders\support</Filter>
+    </None>
+    <None Include="..\shaders\common_gbuffer_pipeline_deferred_shading_pipeline_resource_binding.sli">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\deferred_shading_pipeline_resource_binding.sli">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\gbuffer_pipeline_resource_binding.sli">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\math_constant.sli">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\skin_pipeline_resource_binding.sli">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\common_asset_constant.sli">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\thirdparty\DLB\DLB.glsli">
+      <Filter>thirdparty\DLB</Filter>
+    </None>
+    <None Include="..\thirdparty\DLB\DLB.hlsli">
+      <Filter>thirdparty\DLB</Filter>
+    </None>
+    <None Include="..\shaders\spirv\deferred_shading_fragment.inl">
+      <Filter>shaders\spirv</Filter>
+    </None>
+    <None Include="..\shaders\spirv\deferred_shading_vertex.inl">
+      <Filter>shaders\spirv</Filter>
+    </None>
+    <None Include="..\shaders\spirv\full_screen_transfer_fragment.inl">
+      <Filter>shaders\spirv</Filter>
+    </None>
+    <None Include="..\shaders\spirv\full_screen_transfer_vertex.inl">
+      <Filter>shaders\spirv</Filter>
+    </None>
+    <None Include="..\shaders\spirv\gbuffer_fragment.inl">
+      <Filter>shaders\spirv</Filter>
+    </None>
+    <None Include="..\shaders\spirv\gbuffer_vertex.inl">
+      <Filter>shaders\spirv</Filter>
+    </None>
+    <None Include="..\shaders\spirv\skin_compute.inl">
+      <Filter>shaders\spirv</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{5ef8ee9f-5a80-48bd-82a4-0cec12b21719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{3fd46330-fb50-48b9-9af8-f2bd1292021a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\Vulkan-ValidationLayers">
+      <UniqueIdentifier>{0a393837-6c85-4124-89a5-28e5ae120ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\Vulkan-ValidationLayers\x86">
+      <UniqueIdentifier>{8392cec9-8a4b-4f55-939a-fda75c196bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\Vulkan-ValidationLayers\x64">
+      <UniqueIdentifier>{20e5e431-be5d-49a8-9c62-4973be7abee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\support">
+      <UniqueIdentifier>{9a26aaf8-9e1c-45da-a6dc-54788eb50266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{59f24b2c-072f-4fca-91b0-b70b46bd4124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\support">
+      <UniqueIdentifier>{acd6da07-575e-4359-9d68-a0998b90dd02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\ConvertUTF">
+      <UniqueIdentifier>{c65442bb-15e9-4bfc-bc0c-4c74edddd1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\ConvertUTF\include">
+      <UniqueIdentifier>{b5d88abe-d344-44b6-9031-e70cc4549238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\ConvertUTF\source">
+      <UniqueIdentifier>{a65309de-7b7b-4e93-9b1d-5a4c03e6a9b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\DLB">
+      <UniqueIdentifier>{87c8f33e-e008-4862-9dcd-f4325a3c1c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\DXUT">
+      <UniqueIdentifier>{73a2c49d-7653-4975-b401-e06655c0d7de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\DXUT\Optional">
+      <UniqueIdentifier>{09f4db43-7429-4ae0-b11b-a44ce3150fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\DXUT\thirdparty">
+      <UniqueIdentifier>{79597ffd-b98f-4692-9bd2-78dc1116a80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\DXUT\thirdparty\Reversed-Z">
+      <UniqueIdentifier>{c93c0107-ff02-415d-abc9-6c813c34fb80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\spirv">
+      <UniqueIdentifier>{f6b3b0f4-57bb-4f0f-b3c1-af7cb367457c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
